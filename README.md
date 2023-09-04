@@ -47,7 +47,7 @@ sudo apt install -y openmodelica omlibrary libomccpp
 sudo apt-get install -y ca-certificates curl gnupg lsb-release
 ```
 
-## 添加 OpenModelica 的夜间构建源
+## 添加 OpenModelica 的构建源
 
 ```bash
 curl -fsSL http://build.openmodelica.org/apt/openmodelica.asc | sudo gpg --dearmor -o /usr/share/keyrings/openmodelica-keyring.gpg
@@ -55,7 +55,7 @@ echo  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/open
 $(lsb_release -cs) nightly" | sudo tee /etc/apt/sources.list.d/openmodelica.list > /dev/null
 ```
 
-## 添加源代码的夜间构建源
+## 添加源代码的构建源
 
 ```bash
 echo  "deb-src [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] https://build.openmodelica.org/apt \
