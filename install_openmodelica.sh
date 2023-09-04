@@ -42,12 +42,12 @@ lsb_release --short --codename
 # 安装其他可能需要的依赖
 sudo apt-get install -y ca-certificates curl gnupg lsb-release
 
-# 添加OpenModelica的夜间构建源
+# 添加OpenModelica的构建源
 curl -fsSL http://build.openmodelica.org/apt/openmodelica.asc | sudo gpg --dearmor -o /usr/share/keyrings/openmodelica-keyring.gpg
 echo  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] https://build.openmodelica.org/apt \
 $(lsb_release -cs) nightly" | sudo tee /etc/apt/sources.list.d/openmodelica.list > /dev/null
 
-# 添加源代码的夜间构建源
+# 添加源代码的构建源
 echo  "deb-src [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] https://build.openmodelica.org/apt \
 nightly contrib" | sudo tee -a /etc/apt/sources.list.d/openmodelica.list > /dev/null
 
