@@ -1,4 +1,4 @@
-## 安装 OpenModelica 所需的 Ubuntu 依赖（install_openmodelica.sh）
+## 安装 OpenModelica 所需的 Ubuntu 依赖
 
 1. 使用以下命令给脚本文件添加执行权限：
 
