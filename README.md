@@ -164,6 +164,8 @@ sudo apt install -y autoconf automake libtool g++ gfortran clang cmake hwloc mak
    梯子 梯子 网络不行 说什么都没有用
    ```
 
+4. 使用中遇到任何问题联系开发者：
+
 ![a3b90d09d32c7faec0d7d22986f6e00](https://github.com/djzhp001/install_ububtu_openmodelica/assets/143991527/389c15f5-cf27-47dd-9750-dd17ee1ff84c)
 
 
