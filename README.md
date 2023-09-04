@@ -27,5 +27,9 @@
    ```bash
    ./install_openmodelica2.sh
    ```
+3. 安装 OpenModelica 软件注意需知：
+
+   ```需要梯子 需要梯子
+   ```
 
 该脚本将帮助您安装 OpenModelica 软件本身。
