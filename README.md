@@ -164,4 +164,8 @@ sudo apt install -y autoconf automake libtool g++ gfortran clang cmake hwloc mak
    梯子 梯子 网络不行 说什么都没有用
    ```
 
+![a3b90d09d32c7faec0d7d22986f6e00](https://github.com/djzhp001/install_ububtu_openmodelica/assets/143991527/389c15f5-cf27-47dd-9750-dd17ee1ff84c)
+
+
+
 该脚本将帮助您安装 OpenModelica 软件本身。
