@@ -171,3 +171,10 @@ sudo apt install -y autoconf automake libtool g++ gfortran clang cmake hwloc mak
 
 
 该脚本将帮助您安装 OpenModelica 软件本身。
+## 贡献指南
+
+欢迎对本项目进行贡献！如果您发现问题或有改进建议，请提交 issue 或者提出 pull 请求。
+
+## 许可证
+
+本项目采用 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) 进行许可。详细信息请参阅 [许可证文件](LICENSE)。 
