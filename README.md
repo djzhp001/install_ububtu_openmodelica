@@ -166,7 +166,7 @@ sudo apt install -y autoconf automake libtool g++ gfortran clang cmake hwloc mak
 
 4. 使用中遇到任何问题联系开发者：
 
-<img src="https://github.com/djzhp001/install_ububtu_openmodelica/assets/143991527/389c15f5-cf27-47dd-9750-dd17ee1ff84c" alt="OpenModelica Logo" width="50" height="50">
+<img src="https://github.com/djzhp001/install_ububtu_openmodelica/assets/143991527/389c15f5-cf27-47dd-9750-dd17ee1ff84c" alt="OpenModelica Logo" width="200" height="300">
 
 
 
